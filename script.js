@@ -1,10 +1,10 @@
 let who = prompt("Who be there? Hint - It be your first name in lowercase")
 
-if (who === "ewa") {
-    let login = prompt("Password Hint Fill in the blank - chest ___ are awesome - please write full sentence ");
+if (who === "tushar") {
+    let login = prompt("Password! Hint - Again same as username");
 
-    if (login === "chest hair are awesome") {
-    alert("INDEED THEY ARE, CURLY AND FLUFFY")
+    if (login === "tushar") {
+    alert("You're gay")
 
 
  } else if (login === null) {
@@ -19,5 +19,5 @@ if (who === "ewa") {
     alert("canceled");
 
  } else {
-    alert ("i dont know you")
+    alert ("who is it?")
  }
